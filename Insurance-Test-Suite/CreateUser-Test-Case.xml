@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="24a0380e-ff96-4a98-a97b-e800c77d7090" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="CreateUser Test Case" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="24a0380e-ff96-4a98-a97b-e800c77d7090fileName">CreateUser-Test-Case</con:setting></con:settings><con:testStep type="restrequest" name="REST Request" id="3f9f896c-f1e2-4829-b5a5-0bc1cc615bdf"><con:settings/><con:config service="https://www.test-insurance.com" resourcePath="/api/v1/user" methodName="CreateUserRequest" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="c2229d4c-8572-4804-a97e-b8e0daebd691" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://www.test-insurance.com</con:endpoint><con:request>{
+  "primaryPerson": {
+    "email": "Adib.simazani@Ariansaheb.com",
+    "title": "Freakin",
+    "firstName": "Ugly",
+    "lastName": "Fag",
+    "gender": "Male",
+    "maritalStatus": "Fag",
+    "employmentStatus": "Dumb",
+    "dateOfBirth": "2000-01-01",
+    "languagePref": "en"
+  },
+  "primaryPersonMailingAddress": {
+    "addressType": "USA",
+    "addressLine1": "Canada",
+    "city": "Dumburger",
+    "state": "Okay",
+    "postalCode": "12345",
+    "countryCode": "+1"
+  },
+  "primaryPersonPhone": {
+    "phoneNumber": "123456789",
+    "phoneExtension": "01",
+    "phoneTime": "day",
+    "phoneType": "mobile"
+  }
+}</con:request><con:originalUri>https://www.test-insurance.com/api/v1/user</con:originalUri><con:credentials><con:selectedAuthProfile>Berear</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

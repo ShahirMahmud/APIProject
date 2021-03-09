@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="e55e0f3e-477e-4cfa-9de5-b25d1b5686a1" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="DeleteUser Test Case" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="e55e0f3e-477e-4cfa-9de5-b25d1b5686a1fileName">DeleteUser-Test-Case</con:setting></con:settings><con:properties/><con:reportParameters/></con:testCase>
